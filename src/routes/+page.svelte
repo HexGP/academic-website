@@ -7,6 +7,7 @@
   import { Textarea } from "$lib/components/ui/textarea";
   import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "$lib/components/ui/table";
   import { siteConfig } from "$lib/config/site";
+  import sampleVideo from "$lib/assets/video/sample.mp4";
 </script>
 
 <svelte:head>
@@ -25,13 +26,18 @@
     
     <!-- Video Embed replace with video ID -->
     <div class="aspect-video w-full max-w-4xl mx-auto rounded-lg overflow-hidden border">
-      <iframe
-        src="https://www.youtube.com/embed/dQw4w9WgXcQ" 
+      <!-- <iframe
+        src="https://www.youtube.com/embed/dQw4w9WgXcQ"
         class="w-full h-full"
-        title="Research Overview Video"
+        title="YouTube Video"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowfullscreen
-      />
+        loading="lazy"
+      /> -->
+      <video class="w-full h-full" controls preload="metadata">
+        <source src="{sampleVideo}" type="video/mp4" />
+        Your browser does not support the video element.
+      </video>
     </div>
   </div>
 

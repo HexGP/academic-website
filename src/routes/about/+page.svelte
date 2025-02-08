@@ -78,14 +78,14 @@
         <h2 class="text-3xl font-semibold mb-6">Research Timeline</h2>
         <div class="space-y-4">
           <div class="border-l-2 pl-4 relative">
-            <div class="absolute w-3 h-3 bg-primary rounded-full -left-[7px] top-5" />
-            <h3 class="font-medium">2023-Present</h3>
-            <p class="text-muted-foreground">
+            <div class="absolute w-3 h-3 bg-primary rounded-full -left-[7px] top-5">
+              <h3 class="font-medium">2023-Present</h3>
+              <p class="text-muted-foreground">
               NSF-funded project on ethical AI frameworks
-            </p>
-          </div>
+              </p>
+            </div>
           <div class="border-l-2 pl-4 relative">
-            <div class="absolute w-3 h-3 bg-primary rounded-full -left-[7px] top-5" />
+            <div class="absolute w-3 h-3 bg-primary rounded-full -left-[7px] top-5">
             <h3 class="font-medium">2021-2023</h3>
             <p class="text-muted-foreground">
               DARPA challenge on quantum machine learning benchmarks
